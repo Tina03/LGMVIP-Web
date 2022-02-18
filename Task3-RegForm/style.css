@@ -1,0 +1,142 @@
+body {
+    background-color:white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  h2 {
+    text-align: center;
+    margin: 18px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+  }
+  
+  .container {
+    width: 100%;
+  }
+  
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  table {
+    width: 100%;
+    margin: 20px 0px;
+    background-color: #c1d292;
+    border: 3px solid black;
+    border-width: 0.2rem;
+  }
+  
+  table#storeList {
+    margin-top: -283px;
+    padding: 5px 5px;
+}
+
+  table.list {
+    text-align: center;
+    width: 100%;
+    border: 2px solid black;
+    border-style:solid;
+    margin-top: 10px;
+  }
+  
+  td {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px 15px;
+    padding-top: 35px;
+  }
+
+  #td2 {
+        border: 1px solid black;
+        text-align: center;
+        padding: 8px 15px;
+      
+  }
+  
+  th {
+      text-align: center;
+  }
+
+  tr:nth-child(even),
+  table.list thread > tr {
+    background-color: black;
+  }
+  
+  input[type="text"] {
+    width: 91%;
+    padding: 10px 10px;
+    margin: 0px 0 10px 0;
+    display: inline-block;
+    border: none;
+    font-size: large;
+    border-radius: 3px;
+  }
+
+  input[type="number"] {
+    width: 91%;
+    padding: 10px 10px;
+    margin: 0px 0 10px 0;
+    display: inline-block;
+    border: none;
+    font-size: large;
+    border-radius: 3px;
+  }
+  
+  #form-btns{
+      display: block;
+      align-items: center;
+      
+    }
+    
+    input[type="submit"],
+    input[type="reset"] {
+        padding: 6px 12px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+        border: none;
+        font-size: 1rem;
+        font-weight: 600;
+        width: 120px;
+        height: 40px;
+    cursor: pointer;
+    font-family: sans-serif;
+    background: #3c8f3c;
+    color: white;
+    outline: none;
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover,
+  button:hover {
+    background: #3f8f3f;
+    color: black;
+  }
+  
+  
+  tbody {
+    font-family: sans-serif;
+  }
+  
+  .input-part {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+  }
+
+
+  button {
+    background: #1c2541;
+    color: white;
+    padding: 6px 12px;
+    margin: 15px 0 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+  }
+  
