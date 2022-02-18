@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer> </script>
+    <title>Student Registration System</title>
+</head>
+<body>
+    <h2 style="color: black;">Student Registration Form</h2>
+    <div class="container center">
+        <table>
+            <tr>
+                <td>
+                    <form class="input-part" autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="rollNo">Roll No : </label>
+                            <br>
+                            <input type="number" placeholder="" name="rollNo" id="rollNo">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="Name">Student Name : </label>
+                            <br>
+                            <input placeholder="" type="text" name="studentName" id="studentName">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="Mob">Contact Number : </label>
+                            <br>
+                            <input placeholder="" type="number" maxlength="10" name="Mob" id="Mob">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="Branch">Branch : </label>
+                            <br>
+                            <input placeholder="" type="text" name="Branch" id="Branch">
+                        </div>
+                        <br>
+                        <div>
+                        <label for="Course">Course : </label>
+                        <br>
+                        <input placeholder="" type="text" name="Addr" id="Course">
+                        <br>
+         
+                    </div>
+                        <div id="form-btns">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+
+                <td id="td2">
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Roll No.</th>
+                                <th>Student Name</th>
+                                <th>Contact Number</th>
+                                <th>Branch</th>
+                                <th>Course</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
